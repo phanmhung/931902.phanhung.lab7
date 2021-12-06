@@ -15,9 +15,8 @@ function display(n){
       body.before(div);
 
       div.onclick = function(){
-        if(div.style.borderBottomColor !="yellow")
-        div.style.borderBottomColor ="yellow";
-        else this.remove();
+        if(div.style.borderBottomColor =="yellow") this.remove();
+        else div.style.borderBottomColor ="yellow";
       };
     }
   }
@@ -36,9 +35,8 @@ function display(n){
       body.before(div);
 
       div.onclick = function(){
-        if(div.style.background!="yellow")
-        div.style.background="yellow";
-        else this.remove();
+        if(div.style.borderBottomColor =="yellow") this.remove();
+        else div.style.borderBottomColor ="yellow";
       };
     }
   }
